@@ -1,6 +1,7 @@
 
 use miden_assembly::Assembler;
 use miden_prover::{prove, ProgramInputs, ProofOptions};
+// imprting the miden vm check out -> https://crates.io/crates/miden-assembly
 
 use std::fs::File;
 use std::io::prelude::*;
